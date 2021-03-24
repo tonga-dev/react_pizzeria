@@ -1,0 +1,28 @@
+{
+	"food": [
+		{
+			"_id": "sweet2",
+			"image": "/images/sweet-2.jpg",
+			"alt": "Doughlicious",
+			"name": "Donuts",
+			"desc": "Belgian chocolate glazed donuts covered in icing with sprinkles on top",
+			"price": 9.9
+		},
+		{
+			"_id": "sweet3",
+			"image": "/images/sweet-3.jpg",
+			"alt": "Ice Cream",
+			"name": "Caramel Wonder",
+			"desc": "Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick",
+			"price": 12.9
+		},
+		{
+			"_id": "sweet1",
+			"image": "/images/sweet-1.jpg",
+			"alt": "Brownie",
+			"name": "Brownie Bunch",
+			"desc": "Double fudge brownie squares topped with white chocolate pieces and macadamia nuts",
+			"price": 9.9
+		}
+	]
+}
