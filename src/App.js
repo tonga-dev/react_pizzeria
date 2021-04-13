@@ -1,12 +1,16 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
-import Home from './components/Home'
+import Home from './components/Home';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 const App = () => {
 	return (
-		<div className="App">
-			<Home />
-		</div>
+		<Router>
+			<Switch>
+				<Route path="/" component={Home} />
+				
+			</Switch>
+		</Router>
 	);
 }
 

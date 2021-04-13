@@ -7,15 +7,19 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.(js|jsx)$/,
+				test: /\.(js|jsx)$/i,
 				exclude: /(node_module)/,
 				loader: 'babel-loader',
 				options: { presets: ["@babel/env"] }
 			},
 			{
-				test: /\.css$/,
+				test: /\.css$/i,
 				use: ["style-loader", "css-loader"]
-			}
+			},
+			{
+				test: /\.(png|svg|jpg|jpeg|gif|mp4)$/i,
+				type: 'asset/resource',
+			}, 
 		]
 	},
 	resolve: { extensions: ['*', '.js', '.jsx'] },
